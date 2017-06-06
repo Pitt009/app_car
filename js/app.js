@@ -1,4 +1,7 @@
 $(document).ready(function () {
-  $(".splash")fadeOut(href="https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_fadeout")300
+   setTimeout(function() {
+      $('.splash').fadeOut(500);
+   }, 2000);
+
 
 });
