@@ -1,4 +1,10 @@
-.splash{
-  background: linear-gradient(pink, purple);
+body{
+  background: linear-gradient( #711775, #e70b8c, #711775);
+  background-position: center;
+  background-repeat: no-repeat;
 
+}
+
+.splash img{
+  height: 200px;
 }
