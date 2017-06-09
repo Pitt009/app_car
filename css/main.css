@@ -1,10 +1,33 @@
 body{
-  background: linear-gradient( #711775, #e70b8c, #711775);
+  background-color: #58136a;
+}
+
+.splash{
+  background-image: url("../assets/img/reload.png");
+  background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  height: 660px;
 
 }
 
-.splash img{
-  height: 200px;
+#home{
+  background-image: url("../assets/img/tenor.gif");
+  background-size: cover;
+  background-position: center;
+  height: 660px;
+  margin: 0 auto;
+  color: #FFF;
+}
+ .botones_home{
+   margin-top: 144%;
+ }
+.btn_home_login{
+  background-color: transparent;
+  margin-right: 10px;
+  border: 1px solid #fff;
+}
+
+.btn_home_sing{
+  background: linear-gradient(to right, #58136a , #c90093);
+
 }
